@@ -1,30 +1,67 @@
-body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; margin: 2rem; color: #111; }
-    h1, h2 { line-height: 1.25; }
-    h1 { margin-bottom: 0.5rem; }
-    small { color: #555; }
-    a { color: #0b5fff; text-decoration: none; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JeffreyBot — Terms of Service</title>
+  <style>
+    :root { --ink:#111; --muted:#555; --link:#0b5fff; --rule:#e5e7eb; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; margin: 2rem; color: var(--ink); }
+    h1,h2 { line-height: 1.25; margin: 0 0 .75rem; }
+    h1 { margin-bottom: .5rem; }
+    small { color: var(--muted); }
+    a { color: var(--link); text-decoration: none; }
     a:hover { text-decoration: underline; }
+    main { max-width: 820px; }
     ul { padding-left: 1.25rem; }
-    hr { border: 0; border-top: 1px solid #eee; margin: 2rem 0; }
-    
-    <li>You must comply with the <a href="https://discord.com/terms" target="_blank" rel="noopener">Discord Terms of Service</a> and all applicable laws.</li>
-    <li>Server administrators inviting the bot represent that they have authority to bind their server community to these Terms.</li>
-    
-    <li>Premium features (e.g., AI code review, Q&amp;A, history search) are available via Discord Premium Apps subscriptions (“Premium”).</li>
-    <li>Purchases, renewals, and cancellations are handled by Discord. Pricing and terms are shown in the App Directory listing. Taxes may apply.</li>
-    <li>Refunds are governed by Discord’s platform policies unless we state otherwise. For billing issues, please contact Discord support first.</li>
-    <li>We may change Premium features, pricing, and plans. Changes take effect upon renewal or as permitted by Discord’s policies.</li>
-      
-    <li>Use the Service for unlawful content or activity, harassment, spam, or security violations.</li>
-    <li>Attempt to bypass entitlements, rate limits, or technical controls.</li>
-    <li>Scrape or misuse data accessible through the Service beyond your legitimate server administration needs.</li>
-    
-    <li>To power “history” features, the Service may store public message metadata and content (e.g., author tag/ID, channel ID, content, timestamp) from servers where it is
-installed.</li>
-    <li>Direct messages used with Premium features may be processed by our AI provider but are not stored by us beyond what is necessary to deliver the feature (see Privacy Policy).</
-li>
-    <li>Server administrators are responsible for ensuring they have appropriate rights and member disclosures to use the Service.</li>
-      
-    <li>The Service, its features, and related materials are owned by us or our licensors and are protected by IP laws.</li>
-    <li>You retain rights to your content. You grant us a limited license to process your content solely to provide and improve the Service.</li>
-                    
+    hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>JeffreyBot — Terms of Service</h1>
+    <small>Last updated: 2025-08-31</small>
+    <hr>
+
+    <h2>1. Agreement</h2>
+    <p>By installing or using JeffreyBot (the “Service”), you agree to these Terms and the
+      <a href="https://discord.com/terms" target="_blank" rel="noopener">Discord Terms of Service</a>.</p>
+
+    <h2>2. Eligibility & Installation</h2>
+    <ul>
+      <li>You must comply with all applicable laws and policies.</li>
+      <li>Server administrators inviting the bot represent they have authority to bind their server community.</li>
+    </ul>
+
+    <h2>3. Premium & Billing</h2>
+    <ul>
+      <li>Premium features are sold via Discord Premium Apps subscriptions.</li>
+      <li>Billing (purchase, renewal, cancellation, refunds) is handled by Discord unless we state otherwise.</li>
+    </ul>
+
+    <h2>4. Acceptable Use</h2>
+    <ul>
+      <li>No unlawful content/activity, harassment, spam, or security violations.</li>
+      <li>No attempts to bypass entitlements, rate limits, or other technical controls.</li>
+      <li>No scraping/misuse of data beyond legitimate server administration needs.</li>
+    </ul>
+
+    <h2>5. Data & Privacy</h2>
+    <p>See our <a href="/jeffreybot-legal/privacy.html">Privacy Policy</a> for details. In brief:</p>
+    <ul>
+      <li>We store configuration data needed to run the Service.</li>
+      <li>Message content may be processed to deliver Premium AI features per your settings.</li>
+      <li>Data may be sent to subprocessors (e.g., OpenAI) to generate responses.</li>
+    </ul>
+
+    <h2>6. Availability & Changes</h2>
+    <ul>
+      <li>The Service is provided “as is”, without warranty.</li>
+      <li>We may modify, suspend, or discontinue features; we may update these Terms.</li>
+    </ul>
+
+    <h2>7. Contact</h2>
+    <p>Support: your@email.address — Support server: your invite link.</p>
+  </main>
+</body>
+</html>
